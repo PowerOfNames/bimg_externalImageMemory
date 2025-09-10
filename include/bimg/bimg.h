@@ -185,6 +185,8 @@ namespace bimg
 		uint8_t numMips;            //!< Number of MIP maps.
 		uint8_t bitsPerPixel;       //!< Format bits per pixel.
 		bool    cubeMap;            //!< Texture is cubemap.
+		bool	externalMemoryAccess;//!< Device handle can be exported.
+
 	};
 
 	struct ImageContainer
@@ -208,6 +210,7 @@ namespace bimg
 		bool     m_ktxLE;
 		bool     m_pvr3;
 		bool     m_srgb;
+		bool	 m_externalMemoryAccess;
 	};
 
 	struct ImageMip
