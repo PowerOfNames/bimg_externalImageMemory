@@ -186,7 +186,6 @@ namespace bimg
 		uint8_t bitsPerPixel;       //!< Format bits per pixel.
 		bool    cubeMap;            //!< Texture is cubemap.
 		bool	exportableMemory;	//!< Device handle can be exported.
-		void*	importedMemoryHandle;//!< Device handle to import.
 	};
 
 	struct ImageContainer
@@ -211,7 +210,6 @@ namespace bimg
 		bool     m_pvr3;
 		bool     m_srgb;
 		bool	 m_exportableMemory;
-		void*	 m_importedMemoryHandle;
 	};
 
 	struct ImageMip

@@ -4495,7 +4495,6 @@ namespace bimg
 			_imageContainer.m_srgb      = false;
 
 			_imageContainer.m_exportableMemory		= tc.m_exportableMemory;
-			_imageContainer.m_importedMemoryHandle	= tc.m_importedMemoryHandle;
 
 			return _err->isOk();
 		}

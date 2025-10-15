@@ -78,7 +78,6 @@ namespace bimg
 		uint8_t m_numMips;
 		bool m_cubeMap;
 		bool m_exportableMemory;
-		void* m_importedMemoryHandle;
 		const Memory* m_mem;
 	};
 
